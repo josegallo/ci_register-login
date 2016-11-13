@@ -1,6 +1,6 @@
-This is a simple example of register and login with codeigniter, mysql and bootstrap
+# This is a simple example of register and login with codeigniter, mysql and bootstrap
 
-You would need to create a ddbb in phpMyAdmin with the name you desire and then create a table named user:
+# You would need to create a ddbb in phpMyAdmin with the name you desire and then create a table named user:
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
@@ -14,9 +14,9 @@ CREATE TABLE IF NOT EXISTS `user` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
-Configurate the params in application>config>database.php
+# Configurate the params in application>config>database.php
 
-Email settings: 
+# Email settings: 
 On application>models> User.php configurate the sendEmail function/method:
 
 - For google account:
